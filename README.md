@@ -4,12 +4,12 @@ created two threads one thread is open that file and read the content and check 
 second thread wait for complte the first thread after completed first thread open that file and read the content and count
 the small letter.
 # function:
-    pthread_create()
-    pthread_join()
-    pthread_exit()
-  # System call
-    open()
-    close()
+    * pthread_create()
+    * pthread_join()
+    * pthread_exit()
+  # File System call
+    * open()
+    * close()
 
     
     
